@@ -1,0 +1,11 @@
+🚀 Starte Meine Stimme Anwendung...
+📍 URL: http://localhost:3000
+Traceback (most recent call last):
+  File "/workspaces/ona_world/simple_tts.py", line 57, in <module>
+    app.launch(
+  File "/workspaces/ona_world/venv/lib/python3.12/site-packages/gradio/blocks.py", line 2794, in launch
+    ) = http_server.start_server(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/ona_world/venv/lib/python3.12/site-packages/gradio/http_server.py", line 157, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 3000-3000. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
