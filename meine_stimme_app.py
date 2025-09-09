@@ -105,4 +105,4 @@ with gr.Blocks(title="Meine Stimme - Text zu Sprache") as app:
         """)
 
 if __name__ == "__main__":
-    app.launch(server_name="0.0.0.0", server_port=8080, share=False)
+    app.launch(server_name="0.0.0.0", server_port=3000, share=False)
